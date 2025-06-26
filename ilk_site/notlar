@@ -1,0 +1,67 @@
+ctrl d ve sağ tuş multicursor özelliği veriyor
+bir yazıyı seçip alt ile aşağı tuşuna basarsan istediğin yere taşırsın
+
+ctrl ve enter a basarsan nerede olursan ol aşağıya iner kesmeden
+
+kısa yoldan kod oluşturabilirsin herhnagi bir harfe bastığında falan. buna da snippets deniliyor
+
+
+
+lorem pıcsum sitesinden image bulabilirsin
+
++ kardes oge yani
+ h1+h2 gibi
+ <h1></h1>
+ <h2></h2>
+
+ > icinde oge 
+
+ ul>li*3 
+ <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+ </ul>
+
+ ^ yukarı çık oge oluştur
+
+ ul>li*3^p 
+ <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+ </ul>
+ <p></p>
+
+ * çarp 
+ li*3 
+ <li></li>
+ <li></li>
+ <li></li>
+
+ . class
+
+ h3.deneme 
+ <h3 class="deneme"></h3>
+
+
+ # id
+
+ h3#deneme 
+<h3 id="deneme"></h3>
+
+
+lorem? 
+p>lorem3 
+<p>Lorem, ipsum dolor.</p>
+
+
+.tepki 
+<div class="tepki"></div>
+
+
+ul>li.tepki 
+ul>.tepki  <!--burada li olduğunu kendi anlıyor-->
+<ul>
+   <li class="tepki"></li>
+</ul>
