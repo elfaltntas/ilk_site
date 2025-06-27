@@ -10,6 +10,10 @@ lorem pıcsum sitesinden image bulabilirsin
 
 ! ve tab a basarsan html yapısı gelir
 
+mt10 yazarsan css de margin-top 10px yapar
+
+float left soldan yanyana getirmesibi sağlıyor divleri
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
