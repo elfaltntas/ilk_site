@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf6f6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px 0;
+  border-bottom: 2px solid #ccc;
+}
+
+h1 {
+  color: #b30059;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: purple;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+ul {
+  list-style-type: disc;
+  text-align: left;
+  display: inline-block;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 200px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 6px;
+}
+/* Ana sayfa: Müzik aleti kartları */
+.instrument-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.instrument-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-left: 6px solid #b30059;
+  border-radius: 8px;
+  width: 220px;
+  padding: 15px;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.instrument-card:hover {
+  transform: scale(1.05);
+}
+
+.instrument-card h4 {
+  color: #5d1049;
+  margin-bottom: 10px;
+}
+
+.instrument-card p {
+  font-size: 0.95em;
+}
+
+/* Misyon-Vizyon */
+.mission-vision {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.mission-vision .card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  border-left: 5px solid #6a1b9a;
+  text-align: left;
+}
+
+.mission-vision .card h3 {
+  color: #6a1b9a;
+  margin-bottom: 10px;
+}
